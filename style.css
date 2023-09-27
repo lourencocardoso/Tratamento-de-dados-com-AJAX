@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{background: #1A1A1A;}
+
+table tr, td{
+    border:1px solid #fff;
+}
+
+table{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table td{
+  text-align: center;
+  margin-left: 30%;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+label{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+
+span{
+    font-size: 1.5em;
+    color: #fff;
+}
+input{
+    padding: 10px 40px;
+}
